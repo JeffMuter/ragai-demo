@@ -7,10 +7,16 @@ import (
 	"os"
 	"time"
 
+	"github.com/joho/godotenv"
 	"github.com/predictionguard/go-client"
 )
 
 func main() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatalf("Error loading .env file: %v", err)
+	}
+
 	if err := run(); err != nil {
 		log.Fatalln(err)
 	}

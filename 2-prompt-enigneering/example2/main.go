@@ -9,12 +9,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/joho/godotenv"
 	"github.com/predictionguard/go-client"
 )
-
-// Define the API details to access the LLM.
-var host = "https://api.predictionguard.com"
-var apiKey = os.Getenv("PGKEY")
 
 // qAPromptTemplate is a template for a question and answer prompt.
 func qAPromptTemplate(context, question string) string {
@@ -27,6 +24,8 @@ Question: "%s"
 }
 
 func run(query, queryContext string) error {
+	var host = "https://api.predictionguard.com"
+	var apiKey = os.Getenv("PGKEY")
 
 	logger := func(ctx context.Context, msg string, v ...any) {
 		s := fmt.Sprintf("msg: %s", msg)
@@ -68,6 +67,10 @@ func run(query, queryContext string) error {
 }
 
 func main() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatalf("Error loading .env file: %v", err)
+	}
 
 	// Get the context file from a command line argument.
 	if len(os.Args) < 2 {
