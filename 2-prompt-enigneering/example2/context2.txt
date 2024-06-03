@@ -1,30 +1,23 @@
 List of company teams, employees.
+Project Zugrif, is the name of a project where the company builds a series of datasets to customize the knowledge of an existing AI chatbot, like Llama3, GPT4, or Gemini, with speicific information on divergent topics. Most users would have access to public IT, and HR datasets, however HR would have deeper access to more private data for their team's chatbot. This Zugrif is meant to be a company-speicific information center, that gives employees specialized chatbots to ask questions to, instead of taking up employee's times. However, each team would be responsible for adding new data to their datasets to keep people happy and not in need to seek the team's time to answer questions about projects, updates, etc..
 
-IT:
+IT: Contact Michael with any requests for major tasks to be added to his team's workload
+VP: Michael S. 1 year of experience.
+Benton: Senior IT Rep. 3 years of experience.
+Brandon S: IT Rep. 1 year of experience.
 
-Michael S: CTO Head of Security
+Development: Contact Jeff B with any requests for major tasks to be added to his team's workload
 
-Benton: Senior IT Rep.
+Manager: Jeff B. 27 years of experience. 
+Rocco: Jr Java Developer. .5 years of experience.
+Sajid: Sr Java Developer. 5 years of experiece.
 
-Brandon S: IT Rep.
+Marketing: Contact James J with any requests for major tasks to be added to his team's workload
 
-Kathy K: VP of Sales
-
-Eric M: VP of Marketing. Leads Jeff B James J, Developer team, Marketing Team, Ecommerce Team.
-
-Jeff B: Business Analyst. 27 years of experience. Leads Developer team. Can assist with almost any tech related questions
-
-Rocco: Jr Java Developer.
-
-Sajid: Sr Java Developer.
-
-Jeff M: Web Developer & Designer. Knows HTML, CSS, Golang, Java, JavaScript.
-
-Ali: Graphic Designer.
-
-Jessica: Sr Copywriter, Blog Writer, & Lead Editor
-
-Heath: Sr Copywriter, Blog Writer, Lead Editor, and Google Analytics Expert
-
-James J: Director of Marketing. Leads Jeff M, Heath, Ali, Jessica, Jill, Sally, Lisa, & Bella.
-
+Manager: James J.
+James J: Loves riding bikes, running, traveling. Hates pie charts and flipbooks. 1.5 years experience.
+Jeff M: Title: Web Developer & Designer. Skills: JavaScript, Golang, Java, HTML, CSS. 1 year of experience. Makes static layouts for the website, and develops internal tooling, data visualization, web scraping, testing projects.
+Ali: Graphic Designer. Great with photoshop, Cloudinary, and Active Campaign.
+Jessica: Sr Copywriter, Blog Writer, & Lead Editor.
+Lisa: Content Creator. Creates ad images, banners, content like flipbooks, pamphlets, etc.. 20+ years of experience.
+Heath: Sr Search &, Blog Writer, Lead Editor, and Google Analytics Expert. Great with sci-fi questions, not great with history questions. Writes the nature blog. 5 years experience

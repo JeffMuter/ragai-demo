@@ -52,7 +52,7 @@ func run(query, queryContext string) error {
 
 	ch := make(chan client.ChatSSE, 1000)
 
-	err := cln.ChatSSE(ctx, client.Models.Hermes2ProMistral7B, input, 1000, 0.1, ch)
+	err := cln.ChatSSE(ctx, client.Models.Hermes2ProMistral7B, input, 1000, 0.8, ch)
 	if err != nil {
 		return fmt.Errorf("ERROR: %w", err)
 	}
