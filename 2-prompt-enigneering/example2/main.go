@@ -15,7 +15,7 @@ import (
 
 // qAPromptTemplate is a template for a question and answer prompt.
 func qAPromptTemplate(context, question string) string {
-	return fmt.Sprintf(`Read the context below and answer the question. If the question cannot be answered based on the context alone or the context does not explicitly say the answer to the question, respond "Sorry I had trouble answering this question, based on the information I found."
+	return fmt.Sprintf(`Read the context below and answer the question. If the question cannot be answered with reasonable certainty, respond "Sorry I had trouble answering this question, based on the information I found."
 
 Context: "%s"
 
