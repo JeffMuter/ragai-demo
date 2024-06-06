@@ -1,5 +1,16 @@
-In mid 2016 we added an additional endpoint to the API that would acknowledge that an offer had been displayed to a customer. Go was starting to gain really huge, impressive momentum at Capital One and based on a POC that my team put together, we saw a huge performance improvement vs Java. These results were clear so we decided to use it for this new endpoint.
+https://www.wasserstrom.com/blog/2018/07/02/how-much-flatware-you-need-for-your-restaurant/
+https://www.wasserstrom.com/blog/2018/06/26/how-much-glassware-you-need-for-your-restaurant/
 
-At the time, no single team member knew Go, but within a month, everyone was writing in Go and we were building out the endpoints. It was the flexibility, how easy it was to use, and the really cool concept behind Go (how Go handles native concurrency, garbage collection, and of course safety+speed.) that helped engage us during the build. Also, who can beat that cute mascot!
+Best wine glass:
+Libbey 9324 Prism 20 Ounce Wine Glass - 12 / CS
+Price: $649.49
+Reviews:
+John: Very durable and elegant.
+Jane: Easy to clean, great quality for the price.
 
-The whole process of rewriting the Credit Offers API in Go was much simpler than expected. In my role as Tech Lead I am the last one to approve when a piece of code will be merged and ready for release. So I had to get deeper into Go to not only understand the code, but the business logic as well. One of the more satisfying surprises was that mixing in business logic with a simple language like Go meant it was very easy to jump into this role and not be a bottleneck for releases.
+Best blender:
+Hamilton Beach HBF510 120V Expiditor 48 Oz. Blender with Co-Poly Jar
+$458.90
+Reviews:
+John: We've been using this one for years at my smoothie shop, still kicking.
+Jane: Great for commercial use.
